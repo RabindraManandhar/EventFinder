@@ -1,0 +1,33 @@
+.row {
+    margin-top: 6% !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+
+.col-md-4 {
+    height: 40rem !important;
+}
+
+.card {
+    height: 38rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    align-items: center;
+}
+
+.card-img-top {
+    height: 30% !important;
+}
+
+.card-body {
+    height: 60% !important;
+}
+
+.btn-secondary {
+    color: blue !important;
+    height: 3rem;
+    widows: 5rem;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    
+}

@@ -1,0 +1,16 @@
+form {
+    height: 2.5em !important;
+    width: 100vw !important;
+    text-align: center !important;
+    margin-top: 2.5em !important;
+    z-index: 1 !important;
+    position: absolute !important;
+  }
+  
+  .search {
+    height: 100% !important;
+    width: 50% !important;
+    box-sizing: border-box !important;
+    border-radius: 0.313em !important;
+    padding: 0.625em !important;
+  }

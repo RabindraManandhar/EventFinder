@@ -1,0 +1,14 @@
+.loading-element {
+  height: 100% !important;
+  margin-top: 6% !important;
+}
+
+.container-element {
+  height: calc(100vh - 10vh) !important;
+  margin-top: 6% !important;
+}
+
+.map-element {
+  height: 100% !important;
+  margin-top: 6% !important;
+}
