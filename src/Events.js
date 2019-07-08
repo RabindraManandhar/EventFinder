@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Cards from './Cards';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row } from 'reactstrap';
 
 class Events extends Component {
     constructor(props) {
@@ -11,7 +11,7 @@ class Events extends Component {
         };
     }
     componentDidMount() {
-        fetch('/api/events?')
+        fetch('http://localhost:3030/api/events?')
             .then(res => {
                 return res.json()
             })

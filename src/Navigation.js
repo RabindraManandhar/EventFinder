@@ -33,7 +33,7 @@ export default class Navigation extends Component {
             <div>
                 <Navbar className="navbar" color="dark" dark expand="md" fixed="top">
                     <NavbarBrand className="navbar-brand">
-                        <NavLink className="navlink" href="/home">EventFinder</NavLink>
+                        <NavLink className="navlink" href="/">EventFinder</NavLink>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>

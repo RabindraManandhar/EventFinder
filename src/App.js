@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import Navigation from './Navigation';
 import Home from './Home';
-import Events from './Events';
 import Contact from './Contact';
+import Events from './Events';
 import AboutUs from './AboutUs';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 

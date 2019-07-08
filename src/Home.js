@@ -13,7 +13,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    fetch('/api/events?')
+    fetch('http://localhost:3030/api/events?')
     .then(res => {
       return res.json()
     })
@@ -35,7 +35,7 @@ class Home extends Component {
           ) : (
 
     <div>
-      
+
       <Map
         googleMapURL={"https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key="+process.env.REACT_APP_API_KEY}
         loadingElement={<div className="loading-element"/>}

@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './Contact.css';
 
-const Contact = () => (
-    <div>
-      <h1>Contact Page</h1>
-    </div>
-  );
+class Contact extends Component {
+    render() {
+        return (
+            <div className="contact">
+                <h1>Contact Page</h1>
+            </div>
+        )
+    }
+}
 
-  export default Contact;
+export default Contact;

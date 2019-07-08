@@ -2,12 +2,11 @@ const express = require('express');
 
 const app = express();
 
-const port = 3000;
+const port = 3030;
 
 const axios = require('axios');
 
 const CircularJSON = require('circular-json');
-const path = require('path');
 
 
 
@@ -30,7 +29,6 @@ const getEvents = (options = {}) => {
 }
 
 
-app.use(express.static(path.join(__dirname, 'build')));
 app.use(function(req, res, next) {
 
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -78,9 +76,4 @@ app.get('/api/events/', async (req, res, next) => {
 });
 
 
-app.get('/*', function(req, res) {
-
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-
-});
 app.listen(port, () => console.log('Server running in port: ' + port));
